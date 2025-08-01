@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodify - Music Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="heading">
+        <div class="title-wrapper">
+            <i class="fa-solid fa-music fa-rotate-by" style="--fa-rotate-angle: 23deg;"></i>
+            <h1>  Moodify-  </h1>
+            <i class="fa-solid fa-music fa-rotate-by" style="--fa-rotate-angle: 23deg;"></i>
+        </div>
+        <h5>Your Mood-Based Music Recommender</h5>
+    </div>
+
+    <div class="container">
+        <form action="/" method="POST">
+            <div class="form-row">
+                <label for="hoursSleep">How many hours did you sleep today?</label>
+                <input name="hoursSleep" type="number" placeholder="Enter hours" required>
+            </div>
+
+            <div class="form-row">
+                <label for="screenTime">How much screen time (in hours)?</label>
+                <input name="screenTime" type="number" placeholder="Enter screen time" required>
+            </div>
+
+            <div class="form-row">
+                <label>Are you currently:</label>
+                <div>
+                    <input type="radio" id="Studying" name="doings" value="Studying" required>
+                    <label for="Studying">Studying</label>
+
+                    <input type="radio" id="Relaxing" name="doings" value="Relaxing">
+                    <label for="Relaxing">Relaxing</label>
+
+                    <input type="radio" id="WorkingOut" name="doings" value="Working Out">
+                    <label for="WorkingOut">Working Out</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="time">What is the time right now?</label>
+                <input name="time" type="text" placeholder="e.g. morning, evening, etc." required>
+            </div>
+
+            <div class="form-row">
+                <label for="feeling">How do you feel on a scale of 1-5?</label>
+                <input name="feeling" type="number" min="1" max="5" placeholder="Enter scale" required>
+            </div>
+
+            <div class="form-row">
+                <label>Do you feel social today?</label>
+                <div>
+                    <input type="radio" id="yes" name="social" value="Yes" required>
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="social" value="No">
+                    <label for="no">No</label>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
