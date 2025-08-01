@@ -71,4 +71,6 @@ Feel free to use, modify, and share it for learning or development purposes.
 
 Made with 💙 by **Yugta**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Visit-blue?logo=github)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Visit-blue?logo=github)](https://github.com/yugtasaini624)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/yugta-saini-744295331)
+
