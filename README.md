@@ -49,4 +49,12 @@ Modify/
 │   └── result.html
 └── static/
     └── style.css
-    
+
+---
+
+## Getting Started
+
+To use this project, first clone or download the repository to your local machine.  
+Ensure that you have Python installed along with the necessary libraries such as Flask, pandas, and scikit-learn.  
+Run the Python backend script (`app.py`) to start the web server.  
+Finally, open your web browser and go to `http://localhost:5000` to access the application.
